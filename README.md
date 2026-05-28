@@ -7,6 +7,12 @@ Pressione **Ctrl+O** para expandir e ver o conteúdo completo.
 ## Instalação
 
 ```bash
+pi install npm:pi-compact-output
+```
+
+Ou pelo git:
+
+```bash
 pi install git:github.com/yuritoledo/pi-compact-output
 ```
 
@@ -14,7 +20,7 @@ Ou adicione nos `packages` do `~/.pi/agent/settings.json`:
 
 ```json
 {
-  "packages": ["git:github.com/yuritoledo/pi-compact-output"]
+  "packages": ["npm:pi-compact-output"]
 }
 ```
 
