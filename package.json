@@ -2,11 +2,22 @@
   "name": "pi-compact-output",
   "version": "0.1.0",
   "description": "1 linha no output de ferramentas pi. Ctrl+O expande pro conteúdo completo.",
+  "keywords": ["pi-package", "pi-extension"],
   "type": "module",
+  "license": "MIT",
+  "author": "yuritoledo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuritoledo/pi-compact-output.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuritoledo/pi-compact-output/issues"
+  },
+  "homepage": "https://github.com/yuritoledo/pi-compact-output#readme",
   "pi": {
     "extensions": ["./src/index.ts"]
   },
-  "dependencies": {
+  "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",
     "@earendil-works/pi-tui": "*"
   }
